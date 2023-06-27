@@ -2,7 +2,7 @@ import './App.css';
 
 import Header from'./components/Header'
 
-function App() {
+export function App() {
   const logoName = "Best Dog Ever"
 
   const name = "My Name";
@@ -12,9 +12,9 @@ function App() {
 
   return (
     <div className="App">
-      <Header logo={logoName}/>
+      <Header logo={"Mark"}/>
     </div>
   );
 }
 
-export default App;
+
