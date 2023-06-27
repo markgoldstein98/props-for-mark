@@ -12,7 +12,7 @@ export function App() {
 
   return (
     <div className="App">
-      <Header logo={"Mark"}/>
+      <Header logo={"Mark Abraham Goldstein"}/>
     </div>
   );
 }
