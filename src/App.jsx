@@ -1,20 +1,25 @@
 import './App.css';
 
 import Header from'./components/Header'
+import IntroductionCard from './components/IntroductionCard';
 
 export function App() {
-  const logoName = "Best Dog Ever"
+  const logoName = "Mark Abraham Goldstein"
 
-  const name = "My Name";
-  const school = "My School";
-  const age = "my age";
-  const hobbyList = ["hobby1", "hobby2"];
+  const name = "Mark";
+  const school = "CodeCool";
+  const age = 24;
+  const hobbyList = ["karate", "surfing", "cycling"];
+  
 
   return (
     <div className="App">
-      <Header logo={"Mark Abraham Goldstein"}/>
+      <Header logo={logoName}/>
+      <IntroductionCard name={name} school= {school} age={age} hobbyList={hobbyList} eyeColor='grey' hairColor='brown' height= {172}/>
     </div>
   );
+    
+
 }
 
 
