@@ -14,8 +14,6 @@ export function App() {
   const age = 24;
   const hobbyList = ["karate", "surfing", "cycling"];
   
-
-
   return (
     <div className="App">
       <Header logo={logoName}/>
